@@ -21,9 +21,9 @@ class VoiceHelper {
 
     generateATClientName({ isForInitialization, firstName }) {
         if (isForInitialization) {
-            return `elariandemo-${firstName}`;
+            return `payflow-${firstName}`;
         } else {
-            return `${this.AT_username}.elariandemo-${firstName}`;
+            return `${this.AT_username}.payflow-${firstName}`;
         }
     }
 
